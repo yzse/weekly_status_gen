@@ -18,11 +18,11 @@ def parse_args():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python src/weekly_status_gen.py                    # Concise summaries (highlights only)
-  python src/weekly_status_gen.py --detailed         # Include detailed PR summaries  
-  python src/weekly_status_gen.py --teams voyager    # Specific team only
-  python src/weekly_status_gen.py --days 14          # Look back 14 days
-  python src/weekly_status_gen.py --detailed --days 3 --teams apollo,sovereign
+  python weekly_status_gen.py                    # Concise summaries (highlights only)
+  python weekly_status_gen.py --detailed         # Include detailed PR summaries  
+  python weekly_status_gen.py --teams voyager    # Specific team only
+  python weekly_status_gen.py --days 14          # Look back 14 days
+  python weekly_status_gen.py --detailed --days 3 --teams apollo,sovereign
         """
     )
     
